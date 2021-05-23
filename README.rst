@@ -2,6 +2,7 @@
 Django
 ======
 
+This fork is intended to fix problems with the custom user model.
 Django is a high-level Python Web framework that encourages rapid development
 and clean, pragmatic design. Thanks for checking it out.
 
