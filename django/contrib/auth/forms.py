@@ -94,7 +94,7 @@ class UserCreationForm(forms.ModelForm):
     )
 
     class Meta:
-        model = UserModelModel
+        model = UserModel
         fields = ("username",)
         field_classes = {'username': UsernameField}
 
@@ -143,7 +143,7 @@ class UserChangeForm(forms.ModelForm):
     )
 
     class Meta:
-        model = UserModelModel
+        model = UserModel
         fields = '__all__'
         field_classes = {'username': UsernameField}
 
